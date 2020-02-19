@@ -10,6 +10,7 @@ namespace DuD_Attributswerte_Generieren
     {
         static void Main(string[] args)
         {
+            int anton = 3;
             bool isWiederhole = true;
             //Sorgt dafür, dass der Random Seed nicht immer wieder neu gesetzt wird, und daher dieser ähnlich ist
             AttributswerteGenerator attributswerte = new AttributswerteGenerator();
